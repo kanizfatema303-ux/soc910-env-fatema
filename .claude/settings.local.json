@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/kaniz/OneDrive/Desktop/Proposal Defense/**)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
