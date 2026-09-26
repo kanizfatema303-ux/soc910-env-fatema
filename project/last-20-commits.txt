@@ -1,0 +1,2 @@
+b51d1a5 Add Assignment 1 environment-build scaffolding (setup/, claude/, mcp/, project/, screenshots/)
+02ebe85 Initial commit: SOC 910 readings and project scaffolding
