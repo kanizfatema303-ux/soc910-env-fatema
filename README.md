@@ -31,7 +31,21 @@ Full steps, including a real dependency snag hit during this build and its fix: 
 
 ## Screenshots
 
-_(To be embedded here once added — see `screenshots/README.md` for exactly what's needed.)_
+**VS Code with Claude Code running in the integrated terminal:**
+
+![VS Code with Claude Code](screenshots/01-vscode-claude-code.png)
+
+**`/mcp` output showing `r-mcptools` connected:**
+
+![MCP server connected](screenshots/02-mcp-output.png)
+
+**The agent finishing a real multi-step task (PDF → markdown conversion via `/convert-pdf`):**
+
+![Agent finishing a task](screenshots/03-agent-task.png)
+
+**Commit history:**
+
+![Commit history](screenshots/04-commit-history.png)
 
 ---
 
