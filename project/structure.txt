@@ -1,0 +1,53 @@
+Folder structure, two levels deep (generated with: find . -maxdepth 2 -not -path "./.git*" | sort)
+
+.
+./.claude
+./.claude/settings.local.json
+./claims
+./claims/README.md
+./claude
+./claude/commands
+./CLAUDE.md
+./concepts
+./concepts/README.md
+./docs
+./docs/ACCURACY_RULES.md
+./docs/VERIFICATION_PROTOCOL.md
+./indexes
+./indexes/SKELETON_EXAMPLES.md
+./mcp
+./memory
+./memory/examples
+./memory/README.md
+./papers
+./papers/README.md
+./PHILOSOPHY.md
+./project
+./projects
+./projects/README.md
+./QUICKSTART.md
+./README.md
+./references
+./references/README.md
+./screenshots
+./scripts
+./scripts/README.md
+./setup
+./templates
+./templates/category.md
+./templates/claim.md
+./templates/concept.md
+./templates/project.md
+./templates/reference.md
+(article PDFs and .md conversions live at the repo root, named "Author (Year) Title.ext" — see CLAUDE.md)
+
+Notes on the layers:
+- references/, concepts/, claims/, projects/, indexes/, templates/, docs/, memory/, scripts/, papers/ —
+  the sociology research wiki structure. See project/README.md (moved from the old top-level README.md)
+  for what each one is for.
+- claude/, mcp/, setup/, screenshots/, project/ — added for SOC 910 Assignment 1, so this environment
+  can be reinstalled on another machine.
+- "project/" (singular, this folder) is the Assignment 1 deliverable about how the research folder is
+  organized. "projects/" (plural) is the pre-existing wiki layer for project-specific synthesis notes.
+  Different things, kept as separate folders rather than merged, to avoid rewriting the wiki's own
+  internal references.

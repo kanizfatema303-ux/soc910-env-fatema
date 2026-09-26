@@ -1,0 +1,9 @@
+{
+  "r-mcptools": {
+    "type": "stdio",
+    "command": "C:/Program Files/R/R-4.6.1/bin/Rscript.exe",
+    "args": ["-e", "mcptools::mcp_server()"],
+    "scope": "user",
+    "notes": "No credentials required — local R process only. Registered with: claude mcp add -s \"user\" r-mcptools -- \"C:\\Program Files\\R\\R-4.6.1\\bin\\Rscript.exe\" -e \"mcptools::mcp_server()\""
+  }
+}

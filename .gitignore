@@ -1,0 +1,25 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/*
+!.vscode/extensions.json
+
+# Claude Code local/session state (machine-specific, not portable config)
+.claude/settings.local.json
+.claude/ide/
+.claude/shell-snapshots/
+
+# Secrets — never commit these
+.env
+.env.*
+*.key
+*.pem
+**/credentials.json
+
+# Temp / scratch output
+*.tmp
+*.log
+scratch/
